@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/AutoDrone.dir/src/main.cpp.o CMakeFiles/AutoDrone.dir/src/utils.cpp.o -o AutoDrone  /usr/lib/libsfml-graphics.so.2.5.1 -lpthread /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 

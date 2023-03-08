@@ -20,8 +20,8 @@ struct InterfaceControls
 
 	void registerCallbacks(sfev::EventManager& manager)
 	{
-		manager.addKeyPressedCallback(sf::Keyboard::E, [&](sfev::CstEv ev) { 
-			full_speed = !full_speed; 
+		manager.addKeyPressedCallback(sf::Keyboard::E, [&](sfev::CstEv ev) {
+			full_speed = !full_speed;
 			manager.getWindow().setFramerateLimit((!full_speed) * framerate);
 		});
 		manager.addKeyPressedCallback(sf::Keyboard::M, [&](sfev::CstEv ev) { manual_control = !manual_control; });

@@ -115,10 +115,10 @@ struct Stadium
 			return;
 		}
 
-		const float target_radius = 8.0f;
+		const float target_radius = 20.0f;
 		const float max_dist = 700.0f;
 		const float tolerance_margin = 50.0f;
-		
+
 		Objective& objective = objectives[d.index];
 		sf::Vector2f to_target = objective.getTarget(targets) - d.position;
 		const float to_target_dist = getLength(to_target);
@@ -144,7 +144,7 @@ struct Stadium
 		d.fitness += 1.0f / (1.0f + to_target_dist);
 		// We don't want weirdos
 		const float score_factor = std::pow(cos(d.angle), 2.0f);
-		const float target_time = 1.0f;
+		const float target_time = 0.4f;
 		if (to_target_dist < target_radius + d.radius) {
 			objective.addTimeIn(dt);
 			if (objective.time_in > target_time) {

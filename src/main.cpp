@@ -31,7 +31,7 @@ int main()
 	InterfaceControls controls(event_manager, base_framerate);
 
 	// Define constants
-	const float target_radius = 8.0f;
+	const float target_radius = 20.0f;
 	const float GUI_MARGIN = 10.0f;
 	const float scale = 2.0f;
 	const float dt = 0.008f;
@@ -40,7 +40,7 @@ int main()
 	const std::vector<sf::Color> colors({ sf::Color(36, 123, 160),
 									sf::Color(161, 88, 86),
 									sf::Color(249, 160, 97),
-									sf::Color(80, 81, 79), 
+									sf::Color(80, 81, 79),
 		                            sf::Color(121, 85, 83),
 									sf::Color(242, 95, 92),
 									sf::Color(255, 224, 102),
@@ -48,7 +48,7 @@ int main()
 									sf::Color(74, 158, 170),
 									sf::Color(112, 193, 179) });
 
-	
+
 	Graphic fitness_graph(1000, sf::Vector2f(700, 120), sf::Vector2f(GUI_MARGIN, win_height - 120 - GUI_MARGIN));
 	fitness_graph.color = sf::Color(96, 211, 148);
 
@@ -68,7 +68,7 @@ int main()
 
 	while (window.isOpen()) {
 		event_manager.processEvents();
-		
+
 		// Check for new generation
 		if (stadium.isDone()) {
 			fitness_graph.next();
@@ -101,7 +101,7 @@ int main()
 				}
 			}
 		}
-			
+
 		if (controls.show_just_one) {
 			sf::CircleShape target_c(target_radius);
 			target_c.setFillColor(sf::Color(255, 128, 0));
