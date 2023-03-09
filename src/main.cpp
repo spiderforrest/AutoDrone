@@ -60,13 +60,20 @@ int main()
 	best_score_text.setPosition(4.0f * GUI_MARGIN, 64);
 
 	Stadium stadium(pop_size, scale * sf::Vector2f(win_width, win_height));
-	//stadium.loadDnaFromFile("../selector_output_18.bin");
 
 	sf::RenderStates state;
 	DroneRenderer drone_renderer;
 	state.transform.scale(1.0f / scale, 1.0f / scale);
-
+	bool testBool = true;
 	while (window.isOpen()) {
+		// dirty ass func to load the thing bc wtf code
+		std::cout << "main log A" << std::endl;
+		if (testBool) {
+			stadium.loadDnaFromFile("../selector_output_7.bin");
+			std::cout << "main log" << std::endl;
+			testBool = false;
+		}
+
 		event_manager.processEvents();
 
 		// Check for new generation
