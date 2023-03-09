@@ -1,5 +1,5 @@
 CMakeFiles/AutoDrone.dir/src/main.cpp.o: \
- /home/spider/project/git/oo\ pretty/AutoDrone/src/main.cpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
  /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
  /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
@@ -219,7 +219,7 @@ CMakeFiles/AutoDrone.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/lib/event_manager.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/lib/event_manager.hpp \
  /usr/include/c++/12.2.1/unordered_map \
  /usr/include/c++/12.2.1/bits/hashtable.h \
  /usr/include/c++/12.2.1/bits/hashtable_policy.h \
@@ -230,10 +230,10 @@ CMakeFiles/AutoDrone.dir/src/main.cpp.o: \
  /usr/include/c++/12.2.1/array /usr/include/c++/12.2.1/compare \
  /usr/include/c++/12.2.1/iostream /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/selector.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/dna_utils.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/dna.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/number_generator.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/selector.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/dna_utils.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/dna.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/number_generator.hpp \
  /usr/include/c++/12.2.1/random /usr/include/c++/12.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
@@ -274,28 +274,28 @@ CMakeFiles/AutoDrone.dir/src/main.cpp.o: \
  /usr/include/c++/12.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/12.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/utils.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/utils.hpp \
  /usr/include/c++/12.2.1/sstream /usr/include/c++/12.2.1/bits/sstream.tcc \
  /usr/include/c++/12.2.1/iomanip \
  /usr/include/c++/12.2.1/bits/quoted_string.h \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/neural_network.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/selection_wheel.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/unit.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/double_buffer.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/neural_network.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/selection_wheel.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/unit.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/double_buffer.hpp \
  /usr/include/c++/12.2.1/fstream \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/12.2.1/bits/fstream.tcc \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/dna_loader.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/neural_renderer.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/graph.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/drone_renderer.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/drone.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/ai_unit.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/smoke.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/lib/resource_manager.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/stadium.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/lib/swarm.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/dna_loader.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/neural_renderer.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/graph.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/drone_renderer.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/drone.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/ai_unit.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/smoke.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/lib/resource_manager.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/stadium.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/lib/swarm.hpp \
  /usr/include/c++/12.2.1/thread /usr/include/c++/12.2.1/bits/std_thread.h \
  /usr/include/c++/12.2.1/bits/this_thread_sleep.h \
  /usr/include/c++/12.2.1/bits/chrono.h /usr/include/c++/12.2.1/ratio \
@@ -306,5 +306,5 @@ CMakeFiles/AutoDrone.dir/src/main.cpp.o: \
  /usr/include/c++/12.2.1/bits/list.tcc /usr/include/c++/12.2.1/atomic \
  /usr/include/c++/12.2.1/chrono \
  /usr/include/c++/12.2.1/condition_variable \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/objective.hpp \
- /home/spider/project/git/oo\ pretty/AutoDrone/include/interface_controls.hpp
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/objective.hpp \
+ /home/spider/project/git/oo\ pretty/AutoDrone3/include/interface_controls.hpp

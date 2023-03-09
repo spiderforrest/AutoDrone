@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/spider/project/git/oo pretty/AutoDrone/src/main.cpp" "CMakeFiles/AutoDrone.dir/src/main.cpp.o" "gcc" "CMakeFiles/AutoDrone.dir/src/main.cpp.o.d"
-  "/home/spider/project/git/oo pretty/AutoDrone/src/utils.cpp" "CMakeFiles/AutoDrone.dir/src/utils.cpp.o" "gcc" "CMakeFiles/AutoDrone.dir/src/utils.cpp.o.d"
+  "/home/spider/project/git/oo pretty/AutoDrone3/src/main.cpp" "CMakeFiles/AutoDrone.dir/src/main.cpp.o" "gcc" "CMakeFiles/AutoDrone.dir/src/main.cpp.o.d"
+  "/home/spider/project/git/oo pretty/AutoDrone3/src/utils.cpp" "CMakeFiles/AutoDrone.dir/src/utils.cpp.o" "gcc" "CMakeFiles/AutoDrone.dir/src/utils.cpp.o.d"
   )
 
 # Targets to which this target links.

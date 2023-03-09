@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/spider/project/git/oo pretty/AutoDrone/include" -I"/home/spider/project/git/oo pretty/AutoDrone/lib"
+CXX_INCLUDES = -I"/home/spider/project/git/oo pretty/AutoDrone3/include" -I"/home/spider/project/git/oo pretty/AutoDrone3/lib"
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/spider/project/git/oo pretty/AutoDrone
+# Install script for directory: /home/spider/project/git/oo pretty/AutoDrone3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/spider/project/git/oo pretty/AutoDrone/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/spider/project/git/oo pretty/AutoDrone3/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

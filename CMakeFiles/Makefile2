@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/spider/project/git/oo pretty/AutoDrone"
+CMAKE_SOURCE_DIR = "/home/spider/project/git/oo pretty/AutoDrone3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/spider/project/git/oo pretty/AutoDrone"
+CMAKE_BINARY_DIR = "/home/spider/project/git/oo pretty/AutoDrone3"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/AutoDrone.dir/clean
 CMakeFiles/AutoDrone.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoDrone.dir/build.make CMakeFiles/AutoDrone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutoDrone.dir/build.make CMakeFiles/AutoDrone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" --progress-num=1,2,3 "Built target AutoDrone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" --progress-num=1,2,3 "Built target AutoDrone"
 .PHONY : CMakeFiles/AutoDrone.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AutoDrone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AutoDrone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" 0
 .PHONY : CMakeFiles/AutoDrone.dir/rule
 
 # Convenience name for target.

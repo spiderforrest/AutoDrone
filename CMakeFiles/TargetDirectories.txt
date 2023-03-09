@@ -1,3 +1,3 @@
-/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles/AutoDrone.dir
-/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles/edit_cache.dir
-/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles/rebuild_cache.dir
+/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles/AutoDrone.dir
+/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles/edit_cache.dir
+/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles/rebuild_cache.dir

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/spider/project/git/oo pretty/AutoDrone"
+CMAKE_SOURCE_DIR = "/home/spider/project/git/oo pretty/AutoDrone3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/spider/project/git/oo pretty/AutoDrone"
+CMAKE_BINARY_DIR = "/home/spider/project/git/oo pretty/AutoDrone3"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AutoDrone.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/AutoDrone.dir/flags.make
 CMakeFiles/AutoDrone.dir/src/main.cpp.o: CMakeFiles/AutoDrone.dir/flags.make
 CMakeFiles/AutoDrone.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/AutoDrone.dir/src/main.cpp.o: CMakeFiles/AutoDrone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AutoDrone.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoDrone.dir/src/main.cpp.o -MF CMakeFiles/AutoDrone.dir/src/main.cpp.o.d -o CMakeFiles/AutoDrone.dir/src/main.cpp.o -c "/home/spider/project/git/oo pretty/AutoDrone/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AutoDrone.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoDrone.dir/src/main.cpp.o -MF CMakeFiles/AutoDrone.dir/src/main.cpp.o.d -o CMakeFiles/AutoDrone.dir/src/main.cpp.o -c "/home/spider/project/git/oo pretty/AutoDrone3/src/main.cpp"
 
 CMakeFiles/AutoDrone.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AutoDrone.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/spider/project/git/oo pretty/AutoDrone/src/main.cpp" > CMakeFiles/AutoDrone.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/spider/project/git/oo pretty/AutoDrone3/src/main.cpp" > CMakeFiles/AutoDrone.dir/src/main.cpp.i
 
 CMakeFiles/AutoDrone.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AutoDrone.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/spider/project/git/oo pretty/AutoDrone/src/main.cpp" -o CMakeFiles/AutoDrone.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/spider/project/git/oo pretty/AutoDrone3/src/main.cpp" -o CMakeFiles/AutoDrone.dir/src/main.cpp.s
 
 CMakeFiles/AutoDrone.dir/src/utils.cpp.o: CMakeFiles/AutoDrone.dir/flags.make
 CMakeFiles/AutoDrone.dir/src/utils.cpp.o: src/utils.cpp
 CMakeFiles/AutoDrone.dir/src/utils.cpp.o: CMakeFiles/AutoDrone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AutoDrone.dir/src/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoDrone.dir/src/utils.cpp.o -MF CMakeFiles/AutoDrone.dir/src/utils.cpp.o.d -o CMakeFiles/AutoDrone.dir/src/utils.cpp.o -c "/home/spider/project/git/oo pretty/AutoDrone/src/utils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AutoDrone.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutoDrone.dir/src/utils.cpp.o -MF CMakeFiles/AutoDrone.dir/src/utils.cpp.o.d -o CMakeFiles/AutoDrone.dir/src/utils.cpp.o -c "/home/spider/project/git/oo pretty/AutoDrone3/src/utils.cpp"
 
 CMakeFiles/AutoDrone.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AutoDrone.dir/src/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/spider/project/git/oo pretty/AutoDrone/src/utils.cpp" > CMakeFiles/AutoDrone.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/spider/project/git/oo pretty/AutoDrone3/src/utils.cpp" > CMakeFiles/AutoDrone.dir/src/utils.cpp.i
 
 CMakeFiles/AutoDrone.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AutoDrone.dir/src/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/spider/project/git/oo pretty/AutoDrone/src/utils.cpp" -o CMakeFiles/AutoDrone.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/spider/project/git/oo pretty/AutoDrone3/src/utils.cpp" -o CMakeFiles/AutoDrone.dir/src/utils.cpp.s
 
 # Object files for target AutoDrone
 AutoDrone_OBJECTS = \
@@ -112,7 +112,7 @@ AutoDrone: /usr/lib/libsfml-graphics.so.2.5.1
 AutoDrone: /usr/lib/libsfml-window.so.2.5.1
 AutoDrone: /usr/lib/libsfml-system.so.2.5.1
 AutoDrone: CMakeFiles/AutoDrone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AutoDrone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AutoDrone"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AutoDrone.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/AutoDrone.dir/clean:
 .PHONY : CMakeFiles/AutoDrone.dir/clean
 
 CMakeFiles/AutoDrone.dir/depend:
-	cd "/home/spider/project/git/oo pretty/AutoDrone" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/spider/project/git/oo pretty/AutoDrone" "/home/spider/project/git/oo pretty/AutoDrone" "/home/spider/project/git/oo pretty/AutoDrone" "/home/spider/project/git/oo pretty/AutoDrone" "/home/spider/project/git/oo pretty/AutoDrone/CMakeFiles/AutoDrone.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/spider/project/git/oo pretty/AutoDrone3" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/spider/project/git/oo pretty/AutoDrone3" "/home/spider/project/git/oo pretty/AutoDrone3" "/home/spider/project/git/oo pretty/AutoDrone3" "/home/spider/project/git/oo pretty/AutoDrone3" "/home/spider/project/git/oo pretty/AutoDrone3/CMakeFiles/AutoDrone.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/AutoDrone.dir/depend
 
