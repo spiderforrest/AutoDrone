@@ -14,7 +14,6 @@
 #include "drone_renderer.hpp"
 #include "stadium.hpp"
 #include "dna_loader.hpp"
-#include "dynamic_blur.hpp"
 
 
 int main()
@@ -28,7 +27,6 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(win_width, win_height), "AutoDrone", sf::Style::Fullscreen, settings);
 	window.setVerticalSyncEnabled(true);
 
-	Blur blur(win_width, win_height, 1.0f);
 
 	bool slow_motion = false;
 	const float base_dt = 0.007f;
@@ -51,9 +49,6 @@ int main()
 
 	sf::Vector2f mouse_target;
 	const float target_radius = 8.0f;
-
-	sf::RenderTexture blur_target;
-	blur_target.create(win_width, win_height);
 
 	bool show_just_one = false;
 	bool full_speed = false;
@@ -105,17 +100,14 @@ int main()
 		drone.update(dt, true);
 		// Render
 		window.clear();
-		blur_target.clear();
 
 		const float scale = 3.0f;
 		sf::RenderStates state;
 		state.transform.scale(scale, scale);
-		drone_renderer.draw(drone, window, blur_target, state, colors[3], !full_speed);
+		drone_renderer.draw(drone, window, state, colors[3], !full_speed);
 
-		blur_target.display();
-		sf::Sprite bloom_sprite = blur.apply(blur_target.getTexture(), 2);
 
-		window.draw(bloom_sprite, sf::BlendAdd);
+		window.draw(sf::BlendAdd);
 
 		window.display();
 	}

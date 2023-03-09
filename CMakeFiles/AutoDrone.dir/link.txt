@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/AutoDrone.dir/src/main.cpp.o CMakeFiles/AutoDrone.dir/src/utils.cpp.o -o AutoDrone  /lib/sfml-graphics-s.lib /lib/sfml-window-s.lib /lib/sfml-system-s.lib /lib/freetype.lib /usr/lib/libGL.so /usr/lib/libGLU.so -lwinmm.lib 
